@@ -42,6 +42,7 @@ public class TestDotPlot {
          */
 
         // assertion
+
         String[] lines = bos.toString().trim().split("\\n");
         assertEquals(12, lines.length);
         assertEquals("\tt\th\ti\ts\ti\ts\ta\tb\ti\tg\tt\te\ts\tt\t".trim(), lines[0].trim());

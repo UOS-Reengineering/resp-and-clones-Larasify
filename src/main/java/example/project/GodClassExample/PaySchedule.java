@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class PaySchedule {
 
-    public String payDay;  // TODO: make this variable private and be accessed through getter/setter
+    private String payDay;  // TODO: make this variable private and be accessed through getter/setter
 
     public PaySchedule(String payDay) {
         this.payDay = payDay;
@@ -13,4 +13,5 @@ public class PaySchedule {
     public String getPayDay() {
         return payDay;
     }
+    public void setDate(String payDay) {this.payDay = payDay;}
 }
